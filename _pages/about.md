@@ -1,49 +1,59 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Gourab Saha"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<!-- Embedd a picture here name side_image.jpeg, aligh=right, width = 300px -->
+<!-- <img src="/images/side_image_demo.jpeg" align="right" width="250"/>  -->
+👨‍💻 I'm a recent Graduate from Software Engineering, IICT, SUST.
 
-Gourab Personal Website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+📊 My research interests are in Computer & Cyber Security, Privacy, Self-sovereign Identity.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+📚 Looking for PhD opportunities in CS for Spring or Fall '25.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+# 🙋‍♂️ More About Me
+I am passionate about writing code, experimenting with new technologies, and tackling challenging tasks. My interests span across several cutting-edge areas, including security, self-sovereign identity (SSI) and identity management, machine learning, and virtual/augmented reality. Over the years, I have had the opportunity to develop a range of interesting and innovative projects. I am always eager to learn more and push the boundaries of what is possible with technology.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+In addition to my academic pursuits, I am an active listener of audiobooks, particularly those that delve into historical events, podcast as I find great value in understanding the past and its impact on the present.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+# 🔬 Undergraduate Thesis
+**Title:** Secure Storage of SSI Credential Using Solid Pod Technology.<br>
+**Short Description:** This research addresses the need for secure backup and recovery methods in Self-Sovereign Identity (SSI) wallets, which store critical identity data and cryptographic keys. Despite the growing adoption of SSI, existing wallets often lack robust backup solutions. To tackle this issue, we propose Solid Pod, a cutting-edge technology that provides secure online data storage. I was fortunate to work with [Dr. Sadek Ferdous Ripul](https://scholar.google.com/citations?user=DnQAee0AAAAJ&hl=en&oi=ao) as my thesis supervisor. **This work is presented at the [48th IEEE International Conference on Computers, Software, and Applications (COMPSAC)](https://ieeecompsac.computer.org/2024/).**
 
-**Markdown generator**
+# ✍️ Standardized Tests
+- **GRE:** Quant: 161, Verbal: 141 AWA: 3.0
+- **IELTS:** L: 8.0, R: 6.5, W: 6.0, S: 6.5
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+# 💼 Internship 
+DreamAspect (Startup) (September 2021 – December 2021)
+   - As an intern, I have been actively engaged in developing customized game like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+# 🖥️ Hackathons 
+1. Digital Khichuri Challenge 2019, Sylhet
+   - Our team developed a web-based solution to fight against fake news propaganda. Our team was
+   selected as one of the seven finalists in the competition.
+2. BUP ICT Fest 2019, Bangladesh University of Professionals
+   - Our team developed a university management mobile application using Flutter, designed to enhance the efficiency of managing academic activities.
+3. Sylhet Idea Hackathon 2019,Shahjalal University of Science and Technology
+   - Our team developed a technology model named "VROMON," which provides comprehensive
+   information about tour destinations, hotels, transportation, and tour packages in one place.
+4. HackNSU 2019, North South University
+   - I led a team that developed a tech-business model called ‘Digital House Renting’ which may solve the house renting problem in urban areas like Dhaka.
+5. National Hackathon Competition 2019, Leading University
+   - Our Team developed a student-teacher management mobile application to interact easily between teachers and students.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+# 📎 Extra Curricular Activities
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+
+## Debate 
+I led a debate team that participated in several district-level competitions during high school.
+
+# 📫 How to reach me
+**Email:** gourabsahag@gmail.com
+
