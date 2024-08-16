@@ -30,8 +30,8 @@ A car game using SFML framework where players control a car that shoots oncoming
 
 **Technology:** C++.
 
-## []()
+## [Flutter Projects](https://github.com/gourab98/Flutter_Projects)
 
+I have actively developed a series of mobile applications using the Flutter framework, which showcase my proficiency in Flutter's UI/UX design, state management, and animation techniques. These projects include a fully functional Ludo game, animated page route transitions, customized sign-in pages, and various layout experiments.
 
-
-**Technology:**
+**Technology:** Dart, Flutter.
