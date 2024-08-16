@@ -26,7 +26,7 @@ details, outline a number of protocol ﬂows highlighting different
 use-cases and analyse its security, advantages and limitations.
 
 
-[Download Paper](/files/769600b101.pdf/)
+[Download Paper](/files/769600b101.pdf)
 
 <!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
