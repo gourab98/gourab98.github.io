@@ -6,3 +6,32 @@ sidebar:
   nav: "projects"
 ---
 
+## [House Renting Solver]({https://github.com/gourab98/House-Renting-Solver)
+
+A web-based platform designed to streamline the house-renting process by efficiently connecting property owners with potential renters.
+
+**Technology:** Python (Django), SQLite, HTML, CSS, JavaScript, Bootstrap.
+
+## [File Server System](https://github.com/gourab98/File-Server-System)
+
+A file server system developed in Java that enables users to download and upload files within the same network, featuring a user-friendly GUI for managing files and directories on the server, including file transfer and deletion capabilities.
+
+**Technology:** Java.
+
+## [Solid-based To Do App](https://github.com/gourab98/Solid-to-do-App)
+
+A Solid specification-based application that allows pod holders to log into a pod server with a web ID and manage to-do text lists by creating and deleting tasks directly on the server.
+
+**Technology:** React, Node.js, RDF Turtle Format, Solid (Social Linked Data).
+
+## [Highway Car Shooter](https://github.com/gourab98/Highway-Car-Shooter)
+
+A car game using SFML framework where players control a car that shoots oncoming vehicles while avoiding obstacles, with increasing difficulty levels.
+
+**Technology:** C++.
+
+## []()
+
+
+
+**Technology:**
