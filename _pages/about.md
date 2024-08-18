@@ -17,9 +17,9 @@ redirect_from:
 📚 Looking for PhD opportunities in CS for Spring or Fall '25.
 
 # 🙋‍♂️ More About Me
-I am passionate about writing code, experimenting with new technologies, and tackling challenging tasks. My interests span across several cutting-edge areas, including security, self-sovereign identity (SSI) and identity management, machine learning, and virtual/augmented reality. Over the years, I have had the opportunity to develop a range of interesting and innovative projects. I am always eager to learn more and push the boundaries of what is possible with technology.
+I am passionate about writing code, experimenting with new technologies, and tackling challenging tasks. My interests span several cutting-edge areas, including security, self-sovereign identity (SSI) and identity management, machine learning, and virtual/augmented reality. Over the years, I have had the opportunity to develop a range of interesting and innovative projects. I am always eager to learn more and push the boundaries of what is possible with technology.
 
-In addition to my academic pursuits, I am an active listener of audiobooks, particularly those that delve into historical events, podcast as I find great value in understanding the past and its impact on the present.
+In addition to my academic pursuits, I am an active listener of audiobooks, particularly those that delve into historical events, podcasts as I find great value in understanding the past and its impact on the present.
 
 # 🔬 Undergraduate Thesis
 **Title:** Secure Storage of SSI Credential Using Solid Pod Technology.<br>
@@ -31,20 +31,20 @@ In addition to my academic pursuits, I am an active listener of audiobooks, part
 
 # 💼 Internship 
 DreamAspect (Startup) (September 2021 – December 2021)
-   - As an intern, I have been actively engaged in developing customized game like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
+   - As an intern, I have been actively engaged in developing customized games like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
 
 # 🖥️ Hackathons 
-1. Digital Khichuri Challenge 2019, Sylhet
+1. Digital Khichuri Challenge 2019, Sylhet 
    - Our team developed a web-based solution to fight against fake news propaganda. Our team was
    selected as one of the seven finalists in the competition.
-2. BUP ICT Fest 2019, Bangladesh University of Professionals
+2. BUP ICT Fest 2019, Bangladesh University of Professionals 
    - Our team developed a university management mobile application using Flutter, designed to enhance the efficiency of managing academic activities.
-3. Sylhet Idea Hackathon 2019,Shahjalal University of Science and Technology
+3. Sylhet Idea Hackathon 2019, Shahjalal University of Science and Technology 
    - Our team developed a technology model named "VROMON," which provides comprehensive
    information about tour destinations, hotels, transportation, and tour packages in one place.
 4. HackNSU 2019, North South University
    - I led a team that developed a tech-business model called ‘Digital House Renting’ which may solve the house renting problem in urban areas like Dhaka.
-5. National Hackathon Competition 2019, Leading University
+5. National Hackathon Competition 2019, Leading University 
    - Our Team developed a student-teacher management mobile application to interact easily between teachers and students.
 
 # 📎 Extra Curricular Activities
@@ -54,7 +54,7 @@ DreamAspect (Startup) (September 2021 – December 2021)
 
 
 ## Participation 
-- Throughout my high school years, I actively participated in various prestigious Olympiads, particularly in Mathematics, Science, and Physics, which sharpen my analytical and problem-solving skills.
+- Throughout my high school years, I actively participated in various prestigious Olympiads, particularly in Mathematics, Science, and Physics, which sharpened my analytical and problem-solving skills.
 
 # 📫 How to reach me
 **Email:** gourabsahag@gmail.com
