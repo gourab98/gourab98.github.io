@@ -39,7 +39,7 @@ author:
   orcid            : # "https://orcid.org/0009-0008-0233-0667"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : https://www.researchgate.net/profile/Gourab-Saha-5/research
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
