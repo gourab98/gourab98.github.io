@@ -14,7 +14,7 @@ redirect_from:
 
 📊 My research interests are in Computer & Cyber Security, Privacy, Self-sovereign Identity.
 
-📚 Looking for PhD opportunities in CS for Spring or Fall '25.
+📚 Looking for PhD opportunities in CS for Fall '25.
 
 # 🙋‍♂️ More About Me
 I am passionate about writing code, experimenting with new technologies, and tackling challenging tasks. My interests span several cutting-edge areas, including security, self-sovereign identity (SSI) and identity management, machine learning, and virtual/augmented reality. Over the years, I have had the opportunity to develop a range of interesting and innovative projects. I am always eager to learn more and push the boundaries of what is possible with technology.
