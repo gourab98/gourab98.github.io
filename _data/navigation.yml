@@ -15,10 +15,7 @@ main:
     
   # - title: "Portfolio"
   #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
+      
   # - title: "Guide"
   #   url: /markdown/ 
 
@@ -27,3 +24,6 @@ main:
 
   - title: "Skills"
     url: /skills/
+    
+  - title: "Blog Posts"
+    url: https://manstein.home.blog/
