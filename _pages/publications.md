@@ -6,8 +6,7 @@ author_profile: true
 ---
 
 ## Secure Backup and Recovery of SSI Wallets using Solid Pod Technology
-Published in the 48th IEEE International Conference on Computers, Software, and Applications
-(COMPSAC), Osaka, Japan, July 2024. 
+Published in the [48th IEEE International Conference on Computers, Software, and Applications (COMPSAC)](https://ieeecompsac.computer.org/2024/), Osaka, Japan, July 2024. 
 
 A new paradigm for digital identity management
 called Self-Sovereign Identity (SSI) has emerged to offer users
