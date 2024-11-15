@@ -12,7 +12,7 @@ redirect_from:
 <!-- <img src="/images/side_image_demo.jpeg" align="right" width="250"/>  -->
 👨‍💻 I'm a recent Graduate from Software Engineering, IICT, SUST.
 
-📊 My research interests are in Computer & Cyber Security, Privacy, Self-sovereign Identity.
+📊 My research interests are in Computer & Cyber Security, Privacy, Self-Sovereign Identity.
 
 📚 Looking for PhD opportunities in CS for Fall '25.
 
