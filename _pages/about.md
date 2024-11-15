@@ -26,7 +26,7 @@ In addition to my academic pursuits, I am an active listener of audiobooks, part
 **Short Description:** This research addresses the need for secure backup and recovery methods in Self-Sovereign Identity (SSI) wallets, which store critical identity data and cryptographic keys. Despite the growing adoption of SSI, existing wallets often lack robust backup solutions. To tackle this issue, we propose Solid Pod, a cutting-edge technology that provides secure online data storage. I was fortunate to work with [Dr. Sadek Ferdous Ripul](https://scholar.google.com/citations?user=DnQAee0AAAAJ&hl=en&oi=ao) as my thesis supervisor. **This work is presented at the [48th IEEE International Conference on Computers, Software, and Applications (COMPSAC)](https://ieeecompsac.computer.org/2024/), Osaka, Japan, July 2024.**
 
 # ✍️ Standardized Tests
-- **GRE:** Quant: 161, Verbal: 141 AWA: 3.0
+- **GRE:** Quant: 161, Verbal: 141, AWA: 3.0
 - **IELTS:** L: 8.0, R: 6.5, W: 6.0, S: 6.5
 
 # 💼 Internship 
