@@ -30,7 +30,7 @@ In addition to my academic pursuits, I am an active listener of audiobooks, part
 - **IELTS:** L: 8.0, R: 6.5, W: 6.0, S: 6.5
 
 # 💼 Internship 
-DreamAspect (Startup) (September 2021 – December 2021)
+DreamAspect (September 2021 – December 2021)
    - As an intern, I have been actively engaged in developing customized games like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
 
 # 🖥️ Hackathons 
