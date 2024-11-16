@@ -6,9 +6,9 @@ sidebar:
   nav: "projects"
 ---
 
-## [House Renting Solver]({https://github.com/gourab98/House-Renting-Solver)
+## [Food Order]({https://github.com/gourab98/Food_Order)
 
-A web-based platform designed to streamline the house-renting process by efficiently connecting property owners with potential renters.
+A web-based CRUD application to maintain customer's orders. The system offers to manage customer profiles, food items, and orders.
 
 **Technology:** Python (Django), SQLite, HTML, CSS, JavaScript, Bootstrap.
 
