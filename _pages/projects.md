@@ -6,7 +6,7 @@ sidebar:
   nav: "projects"
 ---
 
-## [Food Order]({https://github.com/gourab98/Food_Order)
+## [Food Order](https://github.com/gourab98/Food_Order)
 
 A web-based CRUD application to maintain customer's orders. The system offers to manage customer profiles, food items, and orders.
 
