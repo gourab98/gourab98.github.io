@@ -25,8 +25,8 @@ author:
   name             : "Gourab Saha"
   pronouns         : # example: "she/her"  
   bio              : "SWE Graduate, 2023 @ SUST"
-  location         : "Bangladesh"
   employer         : "Shahjalal University of Science 
+  location         : "Bangladesh"
   <br>
       and Technology"
   # uri              : "https://manstein.home.blog/"
@@ -34,7 +34,7 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : https://scholar.google.com/citations?hl=en&user=LvLdg7MAAAAJ
   impactstory      : # URL
   orcid            : # "https://orcid.org/0009-0008-0233-0667"
   semantic         : # URL
