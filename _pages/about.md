@@ -10,8 +10,8 @@ redirect_from:
 
 <!-- Embedd a picture here name side_image.jpeg, aligh=right, width = 300px -->
 <!-- <img src="/images/side_image_demo.jpeg" align="right" width="250"/>  -->
-- Recent graduate of software engineering from IICT, SUST.
-- Research interests are in Computer & Cyber Security, Privacy, and Self-Sovereign Identity.
+- Recent graduate of Software Engineering from IICT, SUST.
+- Research interests are in Computer Security and Machine Learning.
 - Looking for PhD opportunities in CS for Fall '25.
 
 # Undergraduate Research Publication
