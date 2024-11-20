@@ -33,21 +33,21 @@ DreamAspect (September 2021 – December 2021)
 - BUP ICT Fest 2019, Bangladesh University of Professionals 
    - Our team developed a university management mobile application using Flutter, designed to enhance the efficiency of managing academic activities.
 - National Hackathon Competition 2019, Leading University 
-   - Our Team developed a student-teacher management mobile application to interact easily between teachers and students.
+   - Our team developed a mobile application for student-teacher management to allow teachers and students to interact easily.
 
 # Extra Curricular Activities
 
 ## Organizer & Editor 
-- I actively participate in various organizing events. One particular is the [Orbitax SUST SWE Technovent 2023](https://en.ittefaq.com.bd/3748/Orbitax-SUST-SWE-Technovent-to-be-held-Jan-26-28), held on January 26th, 27th, and 28th, I had the honor of serving as the Editorial Chief and Organizer. My responsibilities entailed curating a comprehensive [magazine](/files/Magazine.pdf) prior to the event, which included pertinent details about the judges, event schedules, activities, and valuable advice from esteemed seniors. This role afforded me the opportunity to contribute significantly to the success of the event.
+- I actively participate in various organizing events. One particular is the [Orbitax SUST SWE Technovent 2023](https://en.ittefaq.com.bd/3748/Orbitax-SUST-SWE-Technovent-to-be-held-Jan-26-28), held on January 26th, 27th, and 28th; I had the honor of serving as the Editorial Chief and Organizer. My responsibilities entailed curating a comprehensive [magazine](/files/Magazine.pdf) prior to the event, which included pertinent details about the judges, event schedules, activities, and valuable advice from esteemed seniors. This role afforded me the opportunity to contribute significantly to the success of the event.
 
 
 ## Participation 
-- Throughout my high school years, I actively participated in various prestigious Olympiads, particularly in Mathematics, Science, and Physics, which sharpened my analytical and problem-solving skills.
+- Throughout high school, I actively participated in various prestigious Olympiads, particularly in Mathematics, Science, and Physics, which sharpened my analytical and problem-solving skills.
 
 # Want To Know More About Me
-I am passionate about writing code, experimenting with new technologies, and tackling challenging tasks. My interests span several cutting-edge areas, including security, self-sovereign identity (SSI) and identity management, machine learning, and virtual/augmented reality. Over the years, I have had the opportunity to develop a range of interesting and innovative projects. I am always eager to learn more and push the boundaries of what is possible with technology.
+I am passionate about writing code, experimenting with new technologies, and tackling challenging tasks. My interests span several cutting-edge areas, including security, self-sovereign identity (SSI) and identity management, machine learning, and virtual/augmented reality. Over the years, I have had the opportunity to develop a range of exciting and innovative projects. I am always eager to learn more and push the boundaries of what is possible with technology.
 
-In addition to my academic pursuits, I am an active listener of audiobooks, particularly those that delve into historical events, podcasts as I find great value in understanding the past and its impact on the present.
+In addition to my academic pursuits, I am an active listener of audiobooks, particularly historical events, novels, and podcasts. I find great value in understanding the past and its impact on the present.
 
 # How To Reach Me
 **Email:** gourabsahag@gmail.com
