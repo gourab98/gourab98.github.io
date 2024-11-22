@@ -27,13 +27,13 @@ DreamAspect (September 2021 – December 2021)
    - As an intern, I have been actively engaged in developing customized games like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
 
 #  Hackathons 
-- Digital Khichuri Challenge by UNDP, Sylhet 2019 
-   - Our team developed a web-based solution to fight against fake news propaganda. Our team was
-   selected as **one of the seven finalists** in the competition.
+- Sylhet Idea Hackathon 2019, Shahjalal University of Science and Technology 
+   - I led a team that developed a technology model named "VROMON," which provides comprehensive
+   information about tour destinations, hotels, transportation, and tour packages in one place.
 - BUP ICT Fest 2019, Bangladesh University of Professionals 
    - Our team developed a university management mobile application using Flutter, designed to enhance the efficiency of managing academic activities.
 - National Hackathon Competition 2019, Leading University 
-   - Our team developed a mobile application for student-teacher management to allow teachers and students to interact easily.
+   - My team developed a mobile application for student-teacher management to allow teachers and students to interact easily.
 
 # Extra Curricular Activities
 

@@ -4,7 +4,7 @@ title: "Selected Accomplishments"
 permalink: /accomplishments/
 ---
 
-## Finalist | Digital Khichuri Challenge by UNDP- Sylhet 2019
+## Finalist | Digital Khichuri Challenge by UNDP in 2019
 My team developed a web-based solution that can be used as a tool to fight against fake news propaganda.
 
 <div style="text-align:center;" >
