@@ -27,7 +27,7 @@ DreamAspect (September 2021 – December 2021)
    - As an intern, I have been actively engaged in developing customized games like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
 
 #  Hackathons 
-- Digital Khichuri Challenge 2019, Sylhet 
+- Digital Khichuri Challenge by UNDP, Sylhet 2019 
    - Our team developed a web-based solution to fight against fake news propaganda. Our team was
    selected as **one of the seven finalists** in the competition.
 - BUP ICT Fest 2019, Bangladesh University of Professionals 
