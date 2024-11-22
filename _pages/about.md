@@ -38,7 +38,7 @@ DreamAspect (September 2021 – December 2021)
 # Extra Curricular Activities
 
 ## Organizer & Editor 
-- I actively participate in various organizing events. One particular is the [Orbitax SUST SWE Technovent 2023](https://en.ittefaq.com.bd/3748/Orbitax-SUST-SWE-Technovent-to-be-held-Jan-26-28), held on January 26th, 27th, and 28th; I had the honor of serving as the Editorial Chief and Organizer. My responsibilities entailed curating a comprehensive [magazine](/files/Magazine.pdf) prior to the event, which included pertinent details about the judges, event schedules, activities, and valuable advice from esteemed seniors. This role afforded me the opportunity to contribute significantly to the success of the event.
+- I actively participate in various organizing events. One particular is the [Orbitax SUST SWE Technovent 2023](https://en.ittefaq.com.bd/3748/Orbitax-SUST-SWE-Technovent-to-be-held-Jan-26-28), held on January 26th, 27th, and 28th; I had the honor of serving as the Editorial Chief and Organizer. My responsibilities involved curating a comprehensive [magazine](/files/Magazine.pdf) prior to the event, that included pertinent details about the judges, event schedules, activities, and valuable advice from esteemed seniors. This role gave me the opportunity to contribute significantly to the success of the event.
 
 
 ## Participation 
