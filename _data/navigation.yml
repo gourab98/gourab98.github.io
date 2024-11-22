@@ -22,6 +22,9 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Accomplishments"
+    url: /accomplishments/
+
   - title: "Skills"
     url: /skills/
     
