@@ -10,7 +10,7 @@ Published in [48th IEEE International Conference on Computers, Software, and App
 
 This paper proposes a secure backup and storage of SSI wallets using a novel technology called Solid Pod. It also presents the proposed approach's architecture based on a threat model and requirement analysis implementation details, outlines several protocol ﬂows highlighting different use cases, and analyses its security, advantages, and limitations.
 
-[Download Paper](/files/769600b101.pdf) | [Download Slide](/files/PaperPresentation769600b101.pdf)
+[Download Paper](/files/769600b101.pdf), [Download Slide](/files/PaperPresentation769600b101.pdf)
 
 <!-- {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
