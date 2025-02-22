@@ -12,7 +12,7 @@ redirect_from:
 <!-- <img src="/images/side_image_demo.jpeg" align="right" width="250"/>  -->
 - Recent graduate of Software Engineering from IICT, SUST.
 - Research interests are in Cybersecurity, Privacy and Decentralized Systems.
-- Looking for PhD opportunities in CS for Fall '25.
+- Looking for Ph.D. opportunities in CS for Fall '25.
 
 # Undergraduate Research Publication
 **Title:** Secure Storage of SSI Credential Using Solid Pod Technology.<br>
