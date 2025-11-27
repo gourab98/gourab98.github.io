@@ -23,12 +23,10 @@ author:
   # Biographic information
   avatar           : "Gourab.jpg"
   name             : "Gourab Saha"
-  pronouns         : # example: "she/her"  
-  bio              : "SWE Graduate, 2023 @ SUST"
-  location         : "Bangladesh"
-  employer         : "Shahjalal University of Science 
-  <br>
-      and Technology"
+  pronouns         : "he/him"  
+  bio              : "Master of IT student"
+  location         : "Australia"
+  employer         : "Curtin University"
   # uri              : "https://manstein.home.blog/"
   email            : "gourabsahag@gmail.com" 
 
