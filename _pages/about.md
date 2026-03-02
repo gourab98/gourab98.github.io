@@ -11,8 +11,8 @@ redirect_from:
 <!-- Embedd a picture here name side_image.jpeg, aligh=right, width = 300px -->
 <!-- <img src="/images/side_image_demo.jpeg" align="right" width="250"/>  -->
 - Currently pursuing a Master’s in Information Systems and Technology at Curtin University
-- Passionate about data science, analytics and all things data-driven
-- Looking for internship.
+- Passionate about cyber security, data science and data analytics
+- Looking for research opportunities
 
 # Undergraduate Research Publication
 **Title:** Secure Storage of SSI Credential Using Solid Pod Technology.<br>
@@ -22,7 +22,12 @@ redirect_from:
 - **GRE:** **Quant: 161**, Verbal: 141, AWA: 3.0
 - **IELTS:** **Band: 7.0** L: 8.0, R: 6.5, W: 6.0, S: 6.5
 
-# Internship 
+# Internship
+
+Aubot (December 2025 - February 2026)
+ - As a volunteer, I reviewed and evaluated programming language course materials for clarity, structure and technical accuracy. I tried to contributed to core curriculum refinement by improving explanations, examples and exercise design.
+
+
 DreamAspect (September 2021 – December 2021)
    - As an intern, I have been actively engaged in developing customized games like [Ludo](https://github.com/gourab98/Ludo_Flutter), designing user interfaces, and utilizing Flutter technology to ensure seamless and innovative application development. I am working remotely, dedicating 8 hours per day to contribute effectively to various projects and tasks. 
 
