@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --paper: #EFE9DD;
+      --paper-dim: #E4DDCE;
+      --ink: #2B2620;
+      --ink-soft: #6B6355;
+      --pine: #3E6259;
+      --pine-dim: #C9D3C9;
+      --rule: #D8CFBC;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'IBM Plex Sans', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 480px;
+      text-align: center;
+    }
+
+    .clock-line {
+      font-size: 14px;
+      color: var(--ink-soft);
+      letter-spacing: 0.02em;
+      margin-bottom: 28px;
+    }
+
+    .ring-wrap {
+      position: relative;
+      width: 280px;
+      height: 280px;
+      margin: 0 auto 28px;
+    }
+
+    svg {
+      transform: rotate(-90deg);
+      width: 100%;
+      height: 100%;
+    }
+
+    .ring-track {
+      fill: none;
+      stroke: var(--paper-dim);
+      stroke-width: 10;
+    }
+
+    .ring-progress {
+      fill: none;
+      stroke: var(--pine);
+      stroke-width: 10;
+      stroke-linecap: round;
+      transition: stroke-dashoffset 0.3s linear;
+    }
+
+    .ring-center {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .time-left {
+      font-family: 'Source Serif 4', serif;
+      font-size: 56px;
+      font-weight: 500;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .subject-row {
+      margin-bottom: 16px;
+    }
+
+    .subject-row input {
+      width: 220px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 14px;
+      text-align: center;
+      padding: 8px 12px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .subject-label {
+      margin-top: 4px;
+      font-size: 13px;
+      color: var(--pine);
+    }
+
+    .time-label {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 36px;
+      padding: 18px 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 28px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: 'Source Serif 4', serif;
+      font-size: 20px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      color: var(--ink-soft);
+      margin-top: 4px;
+    }
+
+    .presets {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .preset-btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 14px;
+      color: var(--ink);
+      background: transparent;
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      padding: 8px 16px;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .preset-btn:hover {
+      border-color: var(--pine);
+    }
+
+    .preset-btn.active {
+      background: var(--pine);
+      border-color: var(--pine);
+      color: var(--paper);
+    }
+
+    .custom-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+
+    .custom-row input {
+      width: 64px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 14px;
+      text-align: center;
+      padding: 7px 8px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .custom-row input:focus {
+      outline: 2px solid var(--pine);
+      outline-offset: 1px;
+    }
+
+    .custom-row label {
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+
+    .custom-row button {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 13px;
+      color: var(--ink);
+      background: transparent;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      padding: 7px 12px;
+      cursor: pointer;
+    }
+
+    .custom-row button:hover {
+      border-color: var(--pine);
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .btn {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 12px 28px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    .btn-primary {
+      background: var(--pine);
+      color: var(--paper);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--rule);
+    }
+
+    .done-flash {
+      animation: flash 1s ease-in-out 3;
+    }
+
+    @keyframes flash {
+
+      0%,
+      100% {
+        color: var(--ink);
+      }
+
+      50% {
+        color: var(--pine);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ring-progress {
+        transition: none;
+      }
+
+      .done-flash {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+    <div class="clock-line" id="clockLine">—</div>
+
+    <div class="ring-wrap">
+      <svg viewBox="0 0 280 280">
+        <circle class="ring-track" cx="140" cy="140" r="126"></circle>
+        <circle class="ring-progress" id="ringProgress" cx="140" cy="140" r="126" stroke-dasharray="791.68"
+          stroke-dashoffset="791.68"></circle>
+      </svg>
+      <div class="ring-center">
+        <div class="subject-label" id="subjectLabel"></div>
+        <div class="time-left" id="timeLeft">25:00</div>
+        <div class="time-label" id="ringSublabel">ready</div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value" id="percentDone">0%</div>
+        <div class="stat-label">passed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="endTime">—</div>
+        <div class="stat-label">ends at</div>
+      </div>
+    </div>
+
+    <div class="presets" id="presets">
+      <button class="preset-btn active" data-min="25">25 min</button>
+      <button class="preset-btn" data-min="5">5 min</button>
+      <button class="preset-btn" data-min="15">15 min</button>
+      <button class="preset-btn" data-min="45">45 min</button>
+    </div>
+
+    <div class="subject-row">
+      <input type="text" id="subjectInput" placeholder="What are you working on?">
+    </div>
+
+    <div class="custom-row">
+      <label for="customMin">Custom:</label>
+      <input type="number" id="customMin" min="1" max="180" placeholder="min">
+      <button id="customSet">Set</button>
+    </div>
+
+    <div class="controls">
+      <button class="btn btn-primary" id="startPause">Start</button>
+      <button class="btn btn-secondary" id="reset">Reset</button>
+    </div>
+  </div>
+
+  <script>
+    const RADIUS = 126;
+    const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
+
+    let durationSec = 25 * 60;
+    let remainingSec = durationSec;
+    let endAt = null;          // Date object for when timer ends
+    let running = false;
+    let tickHandle = null;
+
+    const timeLeftEl = document.getElementById('timeLeft');
+    const ringSublabelEl = document.getElementById('ringSublabel');
+    const ringProgressEl = document.getElementById('ringProgress');
+    const percentDoneEl = document.getElementById('percentDone');
+    const endTimeEl = document.getElementById('endTime');
+    const clockLineEl = document.getElementById('clockLine');
+    const startPauseBtn = document.getElementById('startPause');
+    const resetBtn = document.getElementById('reset');
+    const presetsEl = document.getElementById('presets');
+    const customMinInput = document.getElementById('customMin');
+    const customSetBtn = document.getElementById('customSet');
+
+    const subjectInput = document.getElementById('subjectInput');
+    const subjectLabelEl = document.getElementById('subjectLabel');
+
+    ringProgressEl.style.strokeDasharray = CIRCUMFERENCE.toFixed(2);
+    ringProgressEl.style.strokeDashoffset = CIRCUMFERENCE.toFixed(2);
+
+    function fmtClock(d) {
+      // return d.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'});
+      return d.toLocaleTimeString([], { hour12: true });
+    }
+    function fmtTimeShort(d) {
+      // return d.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      return d.toLocaleTimeString([], { hour12: true });
+    }
+    function fmtMMSS(totalSeconds) {
+      const s = Math.max(0, Math.round(totalSeconds));
+      const m = Math.floor(s / 60);
+      const sec = s % 60;
+      return String(m).padStart(2, '0') + ':' + String(sec).padStart(2, '0');
+    }
+
+    function updateClock() {
+      clockLineEl.textContent = 'now — ' + fmtClock(new Date());
+    }
+
+    function renderStatic() {
+      timeLeftEl.textContent = fmtMMSS(remainingSec);
+      percentDoneEl.textContent = '0%';
+      endTimeEl.textContent = '—';
+      ringProgressEl.style.strokeDashoffset = CIRCUMFERENCE.toFixed(2);
+      ringSublabelEl.textContent = 'ready';
+    }
+
+    function setDuration(minutes) {
+      if (running) return;
+      durationSec = minutes * 60;
+      remainingSec = durationSec;
+      renderStatic();
+      [...presetsEl.children].forEach(b => {
+        b.classList.toggle('active', Number(b.dataset.min) === minutes);
+      });
+    }
+
+    function tick() {
+      const now = new Date();
+      remainingSec = (endAt - now) / 1000;
+
+      if (remainingSec <= 0) {
+        remainingSec = 0;
+        finish();
+        return;
+      }
+
+      const elapsed = durationSec - remainingSec;
+      const pct = Math.min(100, (elapsed / durationSec) * 100);
+
+      timeLeftEl.textContent = fmtMMSS(remainingSec);
+      percentDoneEl.textContent = Math.round(pct) + '%';
+      ringProgressEl.style.strokeDashoffset = (CIRCUMFERENCE * (1 - pct / 100)).toFixed(2);
+    }
+
+    function finish() {
+      running = false;
+      clearInterval(tickHandle);
+      timeLeftEl.textContent = '00:00';
+      percentDoneEl.textContent = '100%';
+      ringProgressEl.style.strokeDashoffset = 0;
+      ringSublabelEl.textContent = 'done';
+      startPauseBtn.textContent = 'Start';
+      document.querySelector('.ring-center').classList.add('done-flash');
+      beep();
+      setTimeout(() => document.querySelector('.ring-center').classList.remove('done-flash'), 3000);
+    }
+
+    function beep() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        [0, 0.3, 0.6].forEach(delay => {
+          const o = ctx.createOscillator();
+          const g = ctx.createGain();
+          o.type = 'sine';
+          o.frequency.value = 660;
+          g.gain.value = 0.001;
+          o.connect(g); g.connect(ctx.destination);
+          const t = ctx.currentTime + delay;
+          g.gain.setValueAtTime(0.001, t);
+          g.gain.exponentialRampToValueAtTime(0.2, t + 0.02);
+          g.gain.exponentialRampToValueAtTime(0.001, t + 0.25);
+          o.start(t);
+          o.stop(t + 0.3);
+        });
+      } catch (e) { /* audio not available, ignore */ }
+    }
+
+    function start() {
+      subjectLabelEl.textContent = subjectInput.value.trim();
+      if (remainingSec <= 0) remainingSec = durationSec;
+      endAt = new Date(Date.now() + remainingSec * 1000);
+      endTimeEl.textContent = fmtTimeShort(endAt);
+      ringSublabelEl.textContent = 'focusing';
+      running = true;
+      startPauseBtn.textContent = 'Pause';
+      tick();
+      tickHandle = setInterval(tick, 250);
+    }
+
+    function pause() {
+      running = false;
+      clearInterval(tickHandle);
+      startPauseBtn.textContent = 'Resume';
+      ringSublabelEl.textContent = 'paused';
+    }
+
+    function reset() {
+      subjectLabelEl.textContent = '';
+      running = false;
+      clearInterval(tickHandle);
+      remainingSec = durationSec;
+      endAt = null;
+      startPauseBtn.textContent = 'Start';
+      renderStatic();
+    }
+
+    startPauseBtn.addEventListener('click', () => {
+      if (running) pause();
+      else start();
+    });
+
+    resetBtn.addEventListener('click', reset);
+
+    presetsEl.addEventListener('click', (e) => {
+      const btn = e.target.closest('.preset-btn');
+      if (!btn) return;
+      setDuration(Number(btn.dataset.min));
+    });
+
+    customSetBtn.addEventListener('click', () => {
+      const v = Number(customMinInput.value);
+      if (v > 0 && v <= 180) {
+        [...presetsEl.children].forEach(b => b.classList.remove('active'));
+        setDuration(v);
+      }
+    });
+
+    updateClock();
+    setInterval(updateClock, 1000);
+    renderStatic();
+  </script>
+
+</body>
+
+</html>
